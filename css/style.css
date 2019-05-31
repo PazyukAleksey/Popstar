@@ -5,6 +5,7 @@ body {
     max-width: 750px;
     width: 100%;
     margin:0 auto;
+    box-sizing: border-box;
 }
 .header__wrapper{
     position: relative;
@@ -36,7 +37,7 @@ header h1 {
     border-left: 1px solid black;
     display:flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     position: relative;
 }
@@ -61,12 +62,15 @@ header h1 {
     text-align: right;
     font-size: 15px;
     color: #5d5d5d;
+    margin-top: 55px;
 }
 .site__navigation{
     width: 125px;
+
 }
 .content__item{
     width: 360px;
+    margin-top: 55px;
 }
 .news{
     width: 235px;
@@ -98,4 +102,7 @@ header h1 {
     border-right: 1px solid black;
     border-left: 1px solid black;
     text-align: right;
+    padding-right: 134px;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
